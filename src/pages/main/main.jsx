@@ -1,9 +1,13 @@
 import MainSection from "../../components/main/main";
+import Sidebar from "../../components/sidebar/sidebar";
 
 function Main() {
   return (
     <>
-      <MainSection />
+      <Sidebar />
+      <main className="main">
+        <MainSection />
+      </main>
     </>
   );
 }
