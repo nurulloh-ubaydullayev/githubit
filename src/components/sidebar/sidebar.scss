@@ -1,0 +1,206 @@
+.sidebar {
+  width: 250px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.sidebar__menu {
+  width: 100%;
+  margin-bottom: 8px;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+
+.sidebar__menu-btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 18px 0 18px 25px;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar__menu-icon {
+  margin-right: 25px;
+}
+
+.sidebar__menu-logo-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #2e3456;
+}
+
+.header {
+  width: 100%;
+  flex-grow: 1;
+  padding-top: 37px;
+  padding-right: 23px;
+  padding-bottom: 32px;
+  padding-left: 29px;
+  background-color: #fff;
+  overflow-y: auto;
+  box-shadow: 2px 0px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+
+.header__profile {
+  margin-bottom: 68px;
+  padding-left: 3px;
+  padding-right: 8px;
+}
+
+.header__profile-top {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__profile__btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__profile-settings-img {
+  display: block;
+  opacity: 0.3;
+}
+
+.header__profile-name {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.header__profile-tel {
+  margin-bottom: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header__profile-wallet {
+}
+
+.header__wallet-balance-box {
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-right: 18px;
+  padding-left: 20px;
+  background-color: hsla(230, 11%, 78%, 0.07);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.035);
+}
+
+.header__profile-wallet-title {
+  margin-bottom: 6px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+
+.header__profile-wallet-sum {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+}
+
+.header__wallet-add-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__wallet-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 34px;
+  background-color: rgba(243, 100, 18, 0.071);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header__wallet-share-text {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: #f26110;
+}
+
+.header__navbar {
+  &-list {
+    margin-bottom: 54px;
+    list-style-type: none;
+  }
+
+  &-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  &-icon {
+    margin-right: 24px;
+  }
+
+  &-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  &-link-text {
+    color: #000;
+    opacity: 0.5;
+  }
+
+  &-link--active &-link-text {
+    opacity: 1;
+  }
+
+  &-link--active &-icon path {
+    fill: #16aa16;
+  }
+}
+
+.header__navbar-settings {
+  width: 100%;
+  max-width: 190px;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.header__navbar-settings-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  border-top: 1px solid #e6e7eb80;
+  text-decoration: none;
+  color: #00000080;
+}
+
+.header__settings-img {
+  margin-right: 23px;
+}
+
+.header__navbar-arrow {
+  margin-left: auto;
+}

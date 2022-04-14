@@ -1,0 +1,60 @@
+.splide__arrow {
+  display: none !important;
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.splide {
+  max-width: 100% !important;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0 !important;
+  padding-top: 20px !important;
+}
+
+.splide__slide {
+  width: 250px !important;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 22px;
+  background-color: #2f8cf6;
+  background-image: url(../../assets/images/main/orange.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.splide__slide:not(:last-child) {
+  margin-right: 12px !important;
+}
+
+.splide__item-heading {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #e4f9ff;
+}
+
+.splide__item-grade {
+  margin-bottom: 22px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  color: #e4f9ff;
+}
+
+.splide__item-btn {
+  padding: 7px 17px;
+  background-color: #e4f9ff;
+  border-radius: 16px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #2f8cf6;
+}
